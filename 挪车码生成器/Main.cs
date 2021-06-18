@@ -23,7 +23,7 @@ namespace 挪车码生成器
         public Main()
         {
             InitializeComponent();
-            Text = "挪车码生成器 - 52pojie.cn";
+            Text = "挪车码生成器";
             Icon = Properties.Resources.logo;
             UserData = UserData.Load();
             tbxTel.Focus();

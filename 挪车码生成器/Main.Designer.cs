@@ -63,7 +63,7 @@ namespace 挪车码生成器
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(172, 193);
             this.label1.TabIndex = 2;
-            this.label1.Text = "使用方法：\r\n1.输入手机号码\r\n2.保存到桌面\r\n3.用作图软件添加“扫码挪车”字样后打印出来\r\n4.临时停车的时候放在车头显眼位置";
+            this.label1.Text = "使用方法：\r\n1. 输入手机号码\r\n2. 保存到挪车码\r\n3. 用作图工具添加“扫码挪车”等字样后用A4纸打印出来\r\n4. 临时停车的时候放在车窗下显眼位置";
             // 
             // btnSave
             // 
