@@ -96,7 +96,7 @@ namespace 挪车码生成器
         {
             byte[] bytes = Encoding.Default.GetBytes(content);
             string str = Convert.ToBase64String(bytes);
-            pb.Image = Utility.GenerateQRCode($"{ServiceUrl}?{str}", 5, 8);
+            pb.Image = Utility.GenerateQRCode($"{ServiceUrl}?{str}", -1, 8);
         }
     }
 
@@ -203,11 +203,8 @@ namespace 挪车码生成器
 
             QRCoder.QRCodeData code_data = code_generator
                 .CreateQrCode(plainText: msg,
-                eccLevel: QRCoder.QRCodeGenerator.ECCLevel.Q,
-                forceUtf8: true,
-                utf8BOM: true,
-                eciMode: QRCoder.QRCodeGenerator.EciMode.Utf8,
-                requestedVersion: version);
+                eccLevel: QRCoder.QRCodeGenerator.ECCLevel.M
+               );
 
             QRCoder.QRCode code = new QRCoder.QRCode(code_data);
 
