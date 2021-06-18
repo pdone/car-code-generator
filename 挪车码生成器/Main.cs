@@ -59,6 +59,10 @@ namespace 挪车码生成器
                             string foldPath = dialog.SelectedPath;
                             UserData.LastSelectFoldPath = foldPath;
                         }
+                        else
+                        {
+                            return;
+                        }
                     }
                     Directory.CreateDirectory(UserData.LastSelectFoldPath + FolderName);
                     string fileName = $"qr_{UserData.LastPhone}_{DateTime.Now:HHmmss}.jpg";
