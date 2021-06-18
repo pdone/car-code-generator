@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "挪车码生成器", "挪车码生成器\挪车码生成器.csproj", "{99D3D5BB-7B67-4A2D-9A3A-3A5D8D9370A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99D3D5BB-7B67-4A2D-9A3A-3A5D8D9370A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D3D5BB-7B67-4A2D-9A3A-3A5D8D9370A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D3D5BB-7B67-4A2D-9A3A-3A5D8D9370A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D3D5BB-7B67-4A2D-9A3A-3A5D8D9370A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37313BBB-9154-43BF-8FAE-404FDA6088D2}
+	EndGlobalSection
+EndGlobal
